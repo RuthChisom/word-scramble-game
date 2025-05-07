@@ -34,14 +34,14 @@ This is a simple word guessing game where the user needs to guess the correct wo
 1. Clone this repository:
 ```
 
-git clone <repository-url>
+git clone <https://github.com/RuthChisom/word-scramble-game>
 
 ```
 
 2. Navigate to the project folder:
 ```
 
-cd <project-folder>
+cd <word-scramble-game>
 
 ```
 
@@ -59,7 +59,7 @@ npm start
 
 ```
 
-The app will run on [http://localhost:3000](http://localhost:3000) or any available port
+The app will run on [http://localhost:5173](http://localhost:5173) or any available port
 
 ## GitHub Repository
 
@@ -68,4 +68,3 @@ You can view the project: [Live](https://word-scramble-game-three-alpha.vercel.a
 ---
 
 Enjoy the game, and happy guessing!
-```
