@@ -34,14 +34,14 @@ This is a simple word guessing game where the user needs to guess the correct wo
 1. Clone this repository:
 ```
 
-git clone <https://github.com/RuthChisom/word-scramble-game>
+git clone https://github.com/RuthChisom/word-scramble-game
 
 ```
 
 2. Navigate to the project folder:
 ```
 
-cd <word-scramble-game>
+cd word-scramble-game
 
 ```
 
