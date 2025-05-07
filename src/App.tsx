@@ -11,6 +11,11 @@ const App = () => {
   const [visible, setVisible] = useState(true);
 
   const getNewWord = () => {
+    if (wordList.length === 0) {
+      setMessage('❌ No valid words available.');
+      return;
+    }
+
     const randomIndex = Math.floor(Math.random() * wordList.length);
     const wordItem = wordList[randomIndex];
     setCurrentWord(wordItem);
@@ -30,6 +35,12 @@ const App = () => {
 
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
+
+    if (userInput.trim() === '') {
+      setMessage('❌ Please enter a valid word.');
+      return;
+    }
+
     if (userInput.toLowerCase() === currentWord.word.toLowerCase()) {
       setMessage('🎉 Correct! You guessed the word!');
       setShowNext(true);
